@@ -1,6 +1,6 @@
 # Brunch app
 
-This is a HTML5 application, built with [Brunch](http://brunch.io).
+This is a Brunch skeleton with ES6, underscore templates, backbone, jquery, Popper.js, recent Twitter Bootstrap and font-awesome
 
 ## Getting started
 * Install (if you don't have them):
