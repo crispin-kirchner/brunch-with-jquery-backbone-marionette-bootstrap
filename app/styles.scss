@@ -1,0 +1,5 @@
+@import 'bootstrap';
+
+svg circle {
+  fill: map-get($theme-colors, primary);
+}

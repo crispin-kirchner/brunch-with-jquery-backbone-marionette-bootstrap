@@ -19,6 +19,11 @@ exports.plugins = {
   copycat: {
     fonts: ['node_modules/font-awesome/fonts'],
     onlyChanged: true
+  },
+  sass: {
+    options: {
+      includePaths: ['node_modules/bootstrap/scss']
+    }
   }
 };
 
@@ -32,7 +37,6 @@ exports.npm = {
     bootstrap: 'bootstrap'
   },
   styles: {
-    bootstrap: ['dist/css/bootstrap.css'],
     'font-awesome': ['css/font-awesome.css']
   }
 };
